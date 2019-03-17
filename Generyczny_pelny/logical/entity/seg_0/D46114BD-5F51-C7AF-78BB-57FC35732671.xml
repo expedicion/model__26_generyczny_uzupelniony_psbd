@@ -1,0 +1,95 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="D46114BD-5F51-C7AF-78BB-57FC35732671" name="WARTOSC_WLASCIWOSCI">
+<createdBy>nostromo</createdBy>
+<createdTime>2019-03-13 16:53:15 UTC</createdTime>
+<ownerDesignName>Generyczny_pelny</ownerDesignName>
+<engineerTo>
+<item key="CFE71015-1C73-405E-0D47-2E46C0B22CF5" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="WARTOSC" id="867B5105-F096-C8C8-8F72-2C937012E46A">
+<createdBy>nostromo</createdBy>
+<createdTime>2019-03-13 16:53:29 UTC</createdTime>
+<ownerDesignName>Generyczny_pelny</ownerDesignName>
+<engineerTo>
+<item key="CFE71015-1C73-405E-0D47-2E46C0B22CF5" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="KOD_TYPU_OBIEKTU" id="8F322817-84E1-3F1A-9E09-18D82C2AE874">
+<createdBy>nostromo</createdBy>
+<createdTime>2019-03-13 16:54:48 UTC</createdTime>
+<generatorID>16276315-827B-D82E-ECCA-483798D87947</generatorID>
+<ownerDesignName>Generyczny_pelny</ownerDesignName>
+<engineerTo>
+<item key="CFE71015-1C73-405E-0D47-2E46C0B22CF5" value="true"/>
+</engineerTo>
+<referedAttribute>DDA5EFD4-B1F4-4622-39D4-489692C886DA</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="KOD_WLASCIWOSCI" id="3CEAA2FA-356A-309E-E786-54003A10B816">
+<createdBy>nostromo</createdBy>
+<createdTime>2019-03-13 16:54:48 UTC</createdTime>
+<generatorID>16276315-827B-D82E-ECCA-483798D87947</generatorID>
+<ownerDesignName>Generyczny_pelny</ownerDesignName>
+<engineerTo>
+<item key="CFE71015-1C73-405E-0D47-2E46C0B22CF5" value="true"/>
+</engineerTo>
+<referedAttribute>176A7B08-FD3F-9F65-ED6E-39FA0A3CA1EC</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="KOD_TYPU_OBIEKTU1" id="ECE284F6-8D2E-404B-C355-C6CBF83DAAC3">
+<createdBy>nostromo</createdBy>
+<createdTime>2019-03-13 16:55:00 UTC</createdTime>
+<generatorID>966B859E-3050-FA53-8CEB-642C8329DBF1</generatorID>
+<ownerDesignName>Generyczny_pelny</ownerDesignName>
+<engineerTo>
+<item key="CFE71015-1C73-405E-0D47-2E46C0B22CF5" value="true"/>
+</engineerTo>
+<referedAttribute>0C005F6E-8005-A0D2-F8BE-8E6D51291D4F</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="KOD_TYPU_OBIEKTU11" id="BAACD1C2-2065-815C-4839-D9CF55F9D8BF">
+<createdBy>nostromo</createdBy>
+<createdTime>2019-03-13 16:55:00 UTC</createdTime>
+<generatorID>966B859E-3050-FA53-8CEB-642C8329DBF1</generatorID>
+<ownerDesignName>Generyczny_pelny</ownerDesignName>
+<engineerTo>
+<item key="CFE71015-1C73-405E-0D47-2E46C0B22CF5" value="true"/>
+</engineerTo>
+<referedAttribute>E87CE210-7F5C-9FAE-F524-F2EBCE379B8B</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="A56F8F40-0B90-5EA3-CD6B-EF09BFE59F45" name="WARTOSC_WLASCIWOSCI PK">
+<createdBy>nostromo</createdBy>
+<createdTime>2019-03-13 16:54:48 UTC</createdTime>
+<ownerDesignName>Generyczny_pelny</ownerDesignName>
+<engineerTo>
+<item key="CFE71015-1C73-405E-0D47-2E46C0B22CF5" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>8F322817-84E1-3F1A-9E09-18D82C2AE874</attributeRef>
+<attributeRef>3CEAA2FA-356A-309E-E786-54003A10B816</attributeRef>
+<attributeRef>ECE284F6-8D2E-404B-C355-C6CBF83DAAC3</attributeRef>
+<attributeRef>BAACD1C2-2065-815C-4839-D9CF55F9D8BF</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

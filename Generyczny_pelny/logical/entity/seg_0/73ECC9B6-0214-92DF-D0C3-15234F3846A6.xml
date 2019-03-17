@@ -1,0 +1,88 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="73ECC9B6-0214-92DF-D0C3-15234F3846A6" name="OBIEKTY">
+<createdBy>nostromo</createdBy>
+<createdTime>2019-03-13 16:48:08 UTC</createdTime>
+<ownerDesignName>Generyczny_pelny</ownerDesignName>
+<engineerTo>
+<item key="CFE71015-1C73-405E-0D47-2E46C0B22CF5" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="KOD_TYPU_OBIEKTU" id="0C005F6E-8005-A0D2-F8BE-8E6D51291D4F">
+<createdBy>nostromo</createdBy>
+<createdTime>2019-03-13 16:49:25 UTC</createdTime>
+<ownerDesignName>Generyczny_pelny</ownerDesignName>
+<engineerTo>
+<item key="CFE71015-1C73-405E-0D47-2E46C0B22CF5" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_OBIEKTU" id="AD0A6A46-7B51-E0B9-1909-F38DEF881615">
+<createdBy>nostromo</createdBy>
+<createdTime>2019-03-13 16:49:38 UTC</createdTime>
+<ownerDesignName>Generyczny_pelny</ownerDesignName>
+<engineerTo>
+<item key="CFE71015-1C73-405E-0D47-2E46C0B22CF5" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NAZWA" id="D549C3EF-CBD7-676F-511A-124FF0E36018">
+<createdBy>nostromo</createdBy>
+<createdTime>2019-03-13 16:49:48 UTC</createdTime>
+<ownerDesignName>Generyczny_pelny</ownerDesignName>
+<engineerTo>
+<item key="CFE71015-1C73-405E-0D47-2E46C0B22CF5" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="OPIS" id="0373DBF1-47A7-813E-663F-B3C39EBA0848">
+<createdBy>nostromo</createdBy>
+<createdTime>2019-03-13 16:49:56 UTC</createdTime>
+<ownerDesignName>Generyczny_pelny</ownerDesignName>
+<engineerTo>
+<item key="CFE71015-1C73-405E-0D47-2E46C0B22CF5" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="KOD_TYPU_OBIEKTU1" id="E87CE210-7F5C-9FAE-F524-F2EBCE379B8B">
+<createdBy>nostromo</createdBy>
+<createdTime>2019-03-13 16:53:46 UTC</createdTime>
+<generatorID>F7BE4CF2-9397-C58B-C585-9090EC79868F</generatorID>
+<ownerDesignName>Generyczny_pelny</ownerDesignName>
+<engineerTo>
+<item key="CFE71015-1C73-405E-0D47-2E46C0B22CF5" value="true"/>
+</engineerTo>
+<referedAttribute>509C4D6A-A9E3-C2EA-D9C6-E0C5587AEEAF</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="4137D277-0D27-2DA2-403A-F8673A5198E5" name="OBIEKTY PK">
+<createdBy>nostromo</createdBy>
+<createdTime>2019-03-13 16:49:37 UTC</createdTime>
+<ownerDesignName>Generyczny_pelny</ownerDesignName>
+<engineerTo>
+<item key="CFE71015-1C73-405E-0D47-2E46C0B22CF5" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>0C005F6E-8005-A0D2-F8BE-8E6D51291D4F</attributeRef>
+<attributeRef>E87CE210-7F5C-9FAE-F524-F2EBCE379B8B</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
